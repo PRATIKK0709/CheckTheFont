@@ -1,0 +1,99 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #101214;
+    color: #ffffff;
+}
+
+.container {
+    background-color: #1c1f24;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    width: 80%;
+    max-width: 600px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+input[type="file"], 
+textarea, 
+input[type="color"], 
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #3a3f44;
+    background-color: #2a2e33;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+textarea {
+    resize: none;
+}
+
+button {
+    background-color: #4caf50;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.text-output {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #3a3f44;
+    border-radius: 5px;
+    background-color: #2a2e33;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+.image-output {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.generated-image {
+    max-width: 100%;
+    border-radius: 10px;
+    border: 2px solid #3a3f44;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+a.button {
+    text-decoration: none;
+    display: inline-block;
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+a.button:hover {
+    background-color: #45a049;
+}

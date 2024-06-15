@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Check The Font</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Check The Font</h1>
+        <div class="input-group">
+            <label for="fontUpload">Upload Font (.ttf):</label>
+            <input type="file" id="fontUpload" accept=".ttf">
+        </div>
+        <div class="input-group">
+            <label for="textInput">Enter Text:</label>
+            <textarea id="textInput" rows="4" cols="50" placeholder="Type your text here..."></textarea>
+        </div>
+        <div class="input-group">
+            <label for="colorPicker">Choose Color:</label>
+            <input type="color" id="colorPicker" value="#ffffff">
+        </div>
+        <button id="generateImage" class="button">Generate Image</button>
+        <div id="textOutput" class="text-output">
+            Your text will appear here.
+        </div>
+        <canvas id="canvas" style="display:none;"></canvas>
+        <div id="imageOutput" class="image-output">
+        </div>
+        <a id="downloadLink" class="button" style="display:none;" download="generated-image.png">Download Image</a>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
